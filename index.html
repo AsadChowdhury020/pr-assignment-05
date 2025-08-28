@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergency Hotline</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    
+    <!-- Nav bar section starts here -->
+    <section class="nav_bar flex justify-between items-center mx-16 my-6 flex-col md:flex-row gap-10">
+        <div class="flex justify-between items-center ">
+            <img class="max-h-16 max-w-16" src="assets/logo.png" alt="">
+            <h1 class="text-[30px] font-bold text-[#006747] leading-[1]">Emergency <br> Service</h1>
+        </div>
+        <div class="flex justify-between items-center gap-5">
+            <div class="flex justify-around items-center bg-[#41ff6b1a] p-3 rounded-[50px] w-[100px] h-[52px]">
+                <p class="font-[900] ml-3">0</p>
+                <img class="max-h-7 max-w-7 mr-3" src="assets/heart.png" alt="">
+            </div>
+            <div class="flex justify-around items-center bg-[#41ff6b1a] p-3 rounded-[50px] w-[100px] h-[52px] gap-[10px]">
+                <p class="font-[900] ml-2">100</p>
+                <img class="max-h-7 max-w-7 mr-2" src="assets/coin.png" alt="">
+            </div>
+            <div class="flex justify-around items-center bg-[#00A63E] p-3 rounded-[50px] w-[100px] h-[52px] text-[#FFFFFF] font-semibold">
+                <p class="ml-2">2</p>
+                <p class="mr-2">Copy</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
