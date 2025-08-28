@@ -16,11 +16,11 @@ function countCopy(){
     return totalCopyCount ;
 }
 
-// Coin count function
-function countCoin(serviceName, number){
+// Call and coin reduce count function
+function callCoin(serviceName, number){
     // const serviceName = 'National Emergency' ;
     // const number = '999'
-    alert('Calling ' + serviceName + ' at '+ number) ;
+    alert('📞Calling...\n' + serviceName + ' at '+ number) ;
     const coinCount = parseInt(document.getElementById('coin_count').innerText) ;
     if(coinCount >= 20){
         const newCoinCount = coinCount - 20 ;
@@ -44,6 +44,8 @@ function copyNumber(number){
             console.error('Failed to copy text: ', err);
         });
 }
+
+// 
 
 // Count heart event
 document.getElementById('emergency_heart').addEventListener('click', function(){
@@ -117,8 +119,29 @@ document.getElementById('copy_btn_railway').addEventListener('click', function()
 
 // Call button event
 document.getElementById('call_btn_emergency').addEventListener('click', function(){
-    countCoin('National Emergency', '999')
+    callCoin('National Emergency', '999')
 })
 document.getElementById('call_btn_police').addEventListener('click', function(){
-    countCoin('Police', '999')
+    callCoin('Police', '999')
+})
+document.getElementById('call_btn_fire').addEventListener('click', function(){
+    callCoin('Fire Service', '999')
+})
+document.getElementById('call_btn_ambulance').addEventListener('click', function(){
+    callCoin('Ambulance Service', '1994-999999')
+})
+document.getElementById('call_btn_women_child').addEventListener('click', function(){
+    callCoin('Women & Child Helpline', '109')
+})
+document.getElementById('call_btn_anti_corruption').addEventListener('click', function(){
+    callCoin('Anti-Corruption Helpline', '106')
+})
+document.getElementById('call_btn_electricity').addEventListener('click', function(){
+    callCoin('Electricity Helpline', '16216')
+})
+document.getElementById('call_btn_brac').addEventListener('click', function(){
+    callCoin('Brac Helpline', '16445')
+})
+document.getElementById('call_btn_railway').addEventListener('click', function(){
+    callCoin('Bangladesh Railway Helpline', '163')
 })
