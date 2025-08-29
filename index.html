@@ -46,9 +46,9 @@
         </div>
      </section>
 
-     <!-- Service section starts here -->
-      <section class="service border-2 border-red-500 bg-[#f5fff6] flex">
-        <div class="card_container border-2 border-blue-500 w-3/4 grid grid-cols-3 gap-[30px] py-[50px] px-[60px]">
+     <!-- Service card section starts here -->
+      <section class="service bg-[#f5fff6] flex gap-[30px]">
+        <div class="card_container w-3/4 grid grid-cols-3 gap-[30px] py-[50px] ml-[60px]">
             <div class="card bg-[#ffffff] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] p-6">
                 <div class="flex justify-between items-center mb-4">
                     <div class="bg-[#FFE3E2] h-[60px] w-[60px] rounded-2xl p-[14px]">
@@ -214,16 +214,23 @@
         </div>
 
         <!-- History section -->
-        <div class="history_container border-2 border-green-500 w-1/4">
-            <div class="card">
-                <img src="assets/emergency.png" alt="">
-                <h1>National Emergency Number</h1>
-                <h3>National Emergency</h3>
-                <h1>999</h1>
-                <p>All</p>
-                <div>
-                    <button class="btn"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button class="btn"><i class="fa-solid fa-phone"></i>Call</button>
+        <div class="history_container bg-[#f5fff6] w-1/4">
+            <div class="bg-[#ffffff] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] my-[50px] mr-[60px] p-6 rounded-2xl">
+                <div class=" flex justify-between items-center ">
+                    <div class=" text-xl font-medium flex justify-start items-center gap-2">
+                        <i class="fa-regular fa-clock"></i>
+                        <p class="">Call History</p>
+                    </div>
+                    <button id="btn_clear" class="bg-[#00A63E] text-[#FFFFFF] font-semibold py-[14px] px-9 rounded-[50px]">Clear</button>
+                </div>
+                <div id="history_card_parent" class=" bg-[#fafafa] rounded-lg text-[18px] p-4">
+                    <!-- <div id="history_card" class="flex justify-between items-center">
+                        <div>
+                            <p class="font-semibold">Fire Service Number</p>
+                            <p>9999</p>
+                        </div>
+                        <p>11:36:58 AM</p>
+                    </div> -->
                 </div>
             </div>
         </div>
