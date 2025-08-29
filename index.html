@@ -47,8 +47,8 @@
      </section>
 
      <!-- Service card section starts here -->
-      <section class="service bg-[#f5fff6] flex gap-[30px]">
-        <div class="card_container w-3/4 grid grid-cols-3 gap-[30px] py-[50px] ml-[60px]">
+      <section class="service bg-[#f5fff6] flex gap-[30px] flex-col md:flex-row">
+        <div class="card_container w-3/4 grid grid-cols-1 md:grid-cols-3 gap-[30px] py-[50px] mx-auto md:ml-[60px]">
             <div class="card bg-[#ffffff] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] p-6">
                 <div class="flex justify-between items-center mb-4">
                     <div class="bg-[#FFE3E2] h-[60px] w-[60px] rounded-2xl p-[14px]">
@@ -62,9 +62,9 @@
                 <div class="bg-[#f2f2f2] rounded-3xl h-[37px] w-[53px] flex justify-center items-center mt-[2px] mb-6">
                     <p class="text-[18px]  ">All</p>
                 </div>
-                <div class="flex justify-between items-center gap-2">
-                    <button id="copy_btn_emergency" class="btn h-[40px] w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button id="call_btn_emergency" class="btn h-[40px] w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
+                <div class="flex justify-between items-center md:gap-2 gap-0">
+                    <button id="copy_btn_emergency" class="btn max-h-[40px] max-w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button id="call_btn_emergency" class="btn max-h-[40px] max-w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
             <div class="card bg-[#ffffff] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] p-6">
@@ -80,9 +80,9 @@
                 <div class="bg-[#f2f2f2] rounded-3xl h-[37px] w-[53px] flex justify-center items-center mt-[2px] mb-6">
                     <p class="text-[18px]  ">Police</p>
                 </div>
-                <div class="flex justify-between items-center gap-2">
-                    <button id="copy_btn_police" class="btn h-[40px] w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button id="call_btn_police" class="btn h-[40px] w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
+                <div class="flex justify-between items-center md:gap-2 gap-0">
+                    <button id="copy_btn_police" class="btn max-h-[40px] max-w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button id="call_btn_police" class="btn max-h-[40px] max-w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
             <div class="card bg-[#ffffff] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] p-6">
@@ -98,9 +98,9 @@
                 <div class="bg-[#f2f2f2] rounded-3xl h-[37px] w-[53px] flex justify-center items-center mt-[2px] mb-6">
                     <p class="text-[18px]  ">Fire</p>
                 </div>
-                <div class="flex justify-between items-center gap-2">
-                    <button id="copy_btn_fire" class="btn h-[40px] w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button id="call_btn_fire" class="btn h-[40px] w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
+                <div class="flex justify-between items-center md:gap-2 gap-0">
+                    <button id="copy_btn_fire" class="btn max-h-[40px] max-w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button id="call_btn_fire" class="btn max-h-[40px] max-w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
             <div class="card bg-[#ffffff] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] p-6">
@@ -116,9 +116,9 @@
                 <div class="bg-[#f2f2f2] rounded-3xl h-[37px] w-[53px] flex justify-center items-center mt-[2px] mb-6">
                     <p class="text-[18px]">Health</p>
                 </div>
-                <div class="flex justify-between items-center gap-2">
-                    <button id="copy_btn_ambulance" class="btn h-[40px] w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button id="call_btn_ambulance" class="btn h-[40px] w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
+                <div class="flex justify-between items-center md:gap-2 gap-0">
+                    <button id="copy_btn_ambulance" class="btn max-h-[40px] max-w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button id="call_btn_ambulance" class="btn max-h-[40px] max-w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
             <div class="card bg-[#ffffff] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] p-6">
@@ -134,9 +134,9 @@
                 <div class="bg-[#f2f2f2] rounded-3xl h-[37px] w-[53px] flex justify-center items-center mt-[2px] mb-6">
                     <p class="text-[18px]">Help</p>
                 </div>
-                <div class="flex justify-between items-center gap-2">
-                    <button id="copy_btn_women_child" class="btn h-[40px] w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button id="call_btn_women_child" class="btn h-[40px] w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
+                <div class="flex justify-between items-center md:gap-2 gap-0">
+                    <button id="copy_btn_women_child" class="btn max-h-[40px] max-w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button id="call_btn_women_child" class="btn max-h-[40px] max-w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
             <div class="card bg-[#ffffff] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] p-6">
@@ -152,9 +152,9 @@
                 <div class="bg-[#f2f2f2] rounded-3xl h-[37px] w-[53px] flex justify-center items-center mt-[2px] mb-6">
                     <p class="text-[18px]">Govt.</p>
                 </div>
-                <div class="flex justify-between items-center gap-2">
-                    <button id="copy_btn_anti_corruption" class="btn h-[40px] w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button id="call_btn_anti_corruption" class="btn h-[40px] w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
+                <div class="flex justify-between items-center md:gap-2 gap-0">
+                    <button id="copy_btn_anti_corruption" class="btn max-h-[40px] max-w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button id="call_btn_anti_corruption" class="btn max-h-[40px] max-w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
             <div class="card bg-[#ffffff] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] p-6">
@@ -170,9 +170,9 @@
                 <div class="bg-[#f2f2f2] rounded-3xl h-[37px] w-[53px] flex justify-center items-center mt-[2px] mb-6">
                     <p class="text-[18px]">Electricity</p>
                 </div>
-                <div class="flex justify-between items-center gap-2">
-                    <button id="copy_btn_electricity" class="btn h-[40px] w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button id="call_btn_electricity" class="btn h-[40px] w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
+                <div class="flex justify-between items-center md:gap-2 gap-0">
+                    <button id="copy_btn_electricity" class="btn max-h-[40px] max-w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button id="call_btn_electricity" class="btn max-h-[40px] max-w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
             <div class="card bg-[#ffffff] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] p-6">
@@ -189,8 +189,8 @@
                     <p class="text-[18px]">NGO</p>
                 </div>
                 <div class="flex justify-between items-center gap-2">
-                    <button id="copy_btn_brac" class="btn h-[40px] w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button id="call_btn_brac" class="btn h-[40px] w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="copy_btn_brac" class="btn max-h-[40px] max-w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button id="call_btn_brac" class="btn max-h-[40px] max-w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
             <div class="card bg-[#ffffff] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] p-6">
@@ -206,17 +206,17 @@
                 <div class="bg-[#f2f2f2] rounded-3xl h-[37px] w-[53px] flex justify-center items-center mt-[2px] mb-6">
                     <p class="text-[18px]">Travel</p>
                 </div>
-                <div class="flex justify-between items-center gap-2">
-                    <button id="copy_btn_railway" class="btn h-[40px] w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button id="call_btn_railway" class="btn h-[40px] w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
+                <div class="flex justify-between items-center md:gap-2 gap-0">
+                    <button id="copy_btn_railway" class="btn max-h-[40px] max-w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button id="call_btn_railway" class="btn max-h-[40px] max-w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>  
         </div>
 
         <!-- History section -->
         <div class="history_container bg-[#f5fff6] w-1/4">
-            <div class="bg-[#ffffff] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] my-[50px] mr-[60px] p-6 rounded-2xl">
-                <div class=" flex justify-between items-center ">
+            <div class="bg-[#ffffff] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] my-[50px] mx-auto md:mr-[60px] p-6 rounded-2xl">
+                <div class="flex justify-between items-center ">
                     <div class=" text-xl font-medium flex justify-start items-center gap-2">
                         <i class="fa-regular fa-clock"></i>
                         <p class="">Call History</p>
