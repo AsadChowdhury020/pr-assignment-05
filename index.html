@@ -64,7 +64,7 @@
                 </div>
                 <div class="flex justify-between items-center md:gap-2 gap-0">
                     <button id="copy_btn_emergency" class="btn max-h-[40px] max-w-[150px] border-[rgba(212,214,213,1)] bg-[#ffffff] rounded-lg"><i class="fa-regular fa-copy"></i>Copy</button>
-                    <button id="call_btn_emergency" class="btn max-h-[40px] max-w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
+                    <button id="call_btn_emergency" class="btn  max-h-[40px] max-w-[150px] bg-[#00a63e] rounded-lg text-[#ffffff]"><i class="fa-solid fa-phone"></i>Call</button>
                 </div>
             </div>
             <div class="card bg-[#ffffff] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] p-6">
@@ -214,26 +214,21 @@
         </div>
 
         <!-- History section -->
-        <div class="history_container bg-[#f5fff6] w-1/4">
-            <div class="bg-[#ffffff] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] my-[50px] mx-auto md:mr-[60px] p-6 rounded-2xl">
-                <div class="flex justify-between items-center ">
-                    <div class=" text-xl font-medium flex justify-start items-center gap-2">
+        <div class="history_container bg-[#f5fff6] w-full md:w-1/4 px-4 md:px-0">
+            <div class="bg-[#ffffff] shadow-[0px_2px_3px_0px_rgba(0,0,0,0.15)] my-6 md:my-[50px] mx-auto md:mr-[60px] p-6 rounded-2xl">
+                <div class="flex justify-between items-center gap-4 sm:gap-0">
+                    <div class="text-xl font-medium flex justify-start items-center gap-2">
                         <i class="fa-regular fa-clock"></i>
-                        <p class="">Call History</p>
+                        <p>Call History</p>
                     </div>
-                    <button id="btn_clear" class="bg-[#00A63E] text-[#FFFFFF] font-semibold py-[14px] px-9 rounded-[50px]">Clear</button>
+                    <button id="btn_clear" class="bg-[#00A63E] text-[#FFFFFF] font-semibold py-3 px-6 sm:px-9 rounded-[50px]">Clear</button>
                 </div>
-                <div id="history_card_parent" class=" bg-[#fafafa] rounded-lg text-[18px] p-4">
-                    <!-- <div id="history_card" class="flex justify-between items-center">
-                        <div>
-                            <p class="font-semibold">Fire Service Number</p>
-                            <p>9999</p>
-                        </div>
-                        <p>11:36:58 AM</p>
-                    </div> -->
+                <div id="history_card_parent" class="bg-[#fafafa] rounded-lg text-[18px] p-4 mt-4">
+                    <!-- History items will be added here -->
                 </div>
             </div>
         </div>
+
       </section>
 
 
